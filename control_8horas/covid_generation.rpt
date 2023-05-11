@@ -1,0 +1,387 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=D:/RICHARD/proyectos_fpga/control_8horas/ --output-directory=D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/ --file-set=SIM_VHDL --report-file=sopcinfo:D:/RICHARD/proyectos_fpga/control_8horas/covid.sopcinfo --report-file=html:D:/RICHARD/proyectos_fpga/control_8horas/covid.html --report-file=sip:D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/covid.sip --report-file=csv:D:/RICHARD/proyectos_fpga/control_8horas/covid.csv --report-file=spd:D:/RICHARD/proyectos_fpga/control_8horas/covid.spd --report-file=cmp:D:/RICHARD/proyectos_fpga/control_8horas/covid.cmp --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C5T144C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=D:/RICHARD/proyectos_fpga/control_8horas/covid.qsys
+Progress: Loading control_8horas/covid.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding pio_0 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_0
+Progress: Adding pio_1 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_1
+Progress: Adding lcd_16207_0 [altera_avalon_lcd_16207 13.0.1.99.2]
+Progress: Parameterizing module lcd_16207_0
+Progress: Adding pio_2 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: covid.pio_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: covid.pio_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: covid: Generating covid "covid" for SIM_VHDL
+Info: pipeline_bridge_swap_transform: After transform: 8 modules, 24 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 17 modules, 51 connections
+Info: merlin_domain_transform: After transform: 34 modules, 140 connections
+Info: merlin_router_transform: After transform: 43 modules, 167 connections
+Info: reset_adaptation_transform: After transform: 44 modules, 169 connections
+Info: merlin_network_to_switch_transform: After transform: 61 modules, 205 connections
+Info: merlin_mm_transform: After transform: 61 modules, 205 connections
+Info: merlin_interrupt_mapper_transform: After transform: 62 modules, 208 connections
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: nios2_qsys_0: Starting RTL generation for module 'covid_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=covid_nios2_qsys_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0001_nios2_qsys_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0001_nios2_qsys_0_gen//covid_nios2_qsys_0_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0001_nios2_qsys_0_gen/    --bogus  ]
+Info: nios2_qsys_0: # 2022.06.22 17:16:02 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2022.06.22 17:16:02 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2022.06.22 17:16:03 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: nios2_qsys_0: # 2022.06.22 17:16:03 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2022.06.22 17:16:03 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2022.06.22 17:16:03 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2022.06.22 17:16:03 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2022.06.22 17:16:03 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2022.06.22 17:16:03 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2022.06.22 17:16:05 (*)   Creating 'C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0001_nios2_qsys_0_gen//covid_nios2_qsys_0_nios2_waves.do'
+Info: nios2_qsys_0: # 2022.06.22 17:16:05 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2022.06.22 17:16:05 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2022.06.22 17:16:09 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'covid_nios2_qsys_0'
+Info: nios2_qsys_0: "covid" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'covid_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=covid_onchip_memory2_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0002_onchip_memory2_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0002_onchip_memory2_0_gen//covid_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0002_onchip_memory2_0_gen/  ]
+Info: onchip_memory2_0: Done RTL generation for module 'covid_onchip_memory2_0'
+Info: onchip_memory2_0: "covid" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: jtag_uart_0: Starting RTL generation for module 'covid_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=covid_jtag_uart_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0003_jtag_uart_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0003_jtag_uart_0_gen//covid_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0003_jtag_uart_0_gen/  ]
+Info: jtag_uart_0: Done RTL generation for module 'covid_jtag_uart_0'
+Info: jtag_uart_0: "covid" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: pio_0: Starting RTL generation for module 'covid_pio_0'
+Info: pio_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=covid_pio_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0004_pio_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0004_pio_0_gen//covid_pio_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0004_pio_0_gen/  ]
+Info: pio_0: Done RTL generation for module 'covid_pio_0'
+Info: pio_0: "covid" instantiated altera_avalon_pio "pio_0"
+Info: pio_1: Starting RTL generation for module 'covid_pio_1'
+Info: pio_1:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=covid_pio_1 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0005_pio_1_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0005_pio_1_gen//covid_pio_1_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0005_pio_1_gen/  ]
+Info: pio_1: Done RTL generation for module 'covid_pio_1'
+Info: pio_1: "covid" instantiated altera_avalon_pio "pio_1"
+Info: lcd_16207_0: Starting RTL generation for module 'covid_lcd_16207_0'
+Info: lcd_16207_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_lcd_16207 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_lcd_16207/generate_rtl.pl --name=covid_lcd_16207_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0006_lcd_16207_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0006_lcd_16207_0_gen//covid_lcd_16207_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0006_lcd_16207_0_gen/  ]
+Info: lcd_16207_0: Done RTL generation for module 'covid_lcd_16207_0'
+Info: lcd_16207_0: "covid" instantiated altera_avalon_lcd_16207 "lcd_16207_0"
+Info: pio_2: Starting RTL generation for module 'covid_pio_2'
+Info: pio_2:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=covid_pio_2 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0007_pio_2_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --vhdl --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0007_pio_2_gen//covid_pio_2_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0007_pio_2_gen/  ]
+Info: pio_2: Done RTL generation for module 'covid_pio_2'
+Info: pio_2: "covid" instantiated altera_avalon_pio "pio_2"
+Info: nios2_qsys_0_instruction_master_translator: "covid" instantiated altera_merlin_master_translator "nios2_qsys_0_instruction_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "covid" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent: "covid" instantiated altera_merlin_master_agent "nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent: "covid" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: Generated simulation model covid_nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vho
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "covid" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: addr_router: "covid" instantiated altera_merlin_router "addr_router"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: addr_router_001: "covid" instantiated altera_merlin_router "addr_router_001"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: id_router: "covid" instantiated altera_merlin_router "id_router"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: id_router_002: "covid" instantiated altera_merlin_router "id_router_002"
+Info: rst_controller: "covid" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_demux: Generated simulation model covid_cmd_xbar_demux.vho
+Info: cmd_xbar_demux: "covid" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_demux_001: Generated simulation model covid_cmd_xbar_demux_001.vho
+Info: cmd_xbar_demux_001: "covid" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_mux: Generated simulation model covid_cmd_xbar_mux.vho
+Info: cmd_xbar_mux: "covid" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux_002: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_demux_002: Generated simulation model covid_rsp_xbar_demux_002.vho
+Info: rsp_xbar_demux_002: "covid" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_mux: Generated simulation model covid_rsp_xbar_mux.vho
+Info: rsp_xbar_mux: "covid" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: rsp_xbar_mux_001: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_mux_001: Generated simulation model covid_rsp_xbar_mux_001.vho
+Info: rsp_xbar_mux_001: "covid" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: irq_mapper: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: irq_mapper: Generated simulation model covid_irq_mapper.vho
+Info: irq_mapper: "covid" instantiated altera_irq_mapper "irq_mapper"
+Info: covid: Done covid" with 25 modules, 133 files, 5362739 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=D:/RICHARD/proyectos_fpga/control_8horas/covid.spd --output-directory=D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/
+Info: Doing: ip-make-simscript --spd=D:/RICHARD/proyectos_fpga/control_8horas/covid.spd --output-directory=D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/
+Info: Generating the following file(s) for MODELSIM simulator in D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	19 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERAPRO simulator in D:/RICHARD/proyectos_fpga/control_8horas/covid/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=D:/RICHARD/proyectos_fpga/control_8horas/ --output-directory=D:/RICHARD/proyectos_fpga/control_8horas/covid/ --report-file=bsf:D:/RICHARD/proyectos_fpga/control_8horas/covid.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C5T144C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=D:/RICHARD/proyectos_fpga/control_8horas/covid.qsys
+Progress: Loading control_8horas/covid.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding pio_0 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_0
+Progress: Adding pio_1 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_1
+Progress: Adding lcd_16207_0 [altera_avalon_lcd_16207 13.0.1.99.2]
+Progress: Parameterizing module lcd_16207_0
+Progress: Adding pio_2 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: covid.pio_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: covid.pio_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:/RICHARD/proyectos_fpga/control_8horas/ --output-directory=D:/RICHARD/proyectos_fpga/control_8horas/covid/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:D:/RICHARD/proyectos_fpga/control_8horas/covid.sopcinfo --report-file=html:D:/RICHARD/proyectos_fpga/control_8horas/covid.html --report-file=qip:D:/RICHARD/proyectos_fpga/control_8horas/covid/synthesis/covid.qip --report-file=cmp:D:/RICHARD/proyectos_fpga/control_8horas/covid.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C5T144C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=D:/RICHARD/proyectos_fpga/control_8horas/covid.qsys --language=VHDL
+Progress: Loading control_8horas/covid.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding pio_0 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_0
+Progress: Adding pio_1 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_1
+Progress: Adding lcd_16207_0 [altera_avalon_lcd_16207 13.0.1.99.2]
+Progress: Parameterizing module lcd_16207_0
+Progress: Adding pio_2 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module pio_2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: covid.pio_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: covid.pio_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: covid: Generating covid "covid" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 8 modules, 24 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 17 modules, 51 connections
+Info: merlin_domain_transform: After transform: 34 modules, 140 connections
+Info: merlin_router_transform: After transform: 43 modules, 167 connections
+Info: reset_adaptation_transform: After transform: 44 modules, 169 connections
+Info: merlin_network_to_switch_transform: After transform: 61 modules, 205 connections
+Info: merlin_mm_transform: After transform: 61 modules, 205 connections
+Info: merlin_interrupt_mapper_transform: After transform: 62 modules, 208 connections
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: covid: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: nios2_qsys_0: Starting RTL generation for module 'covid_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=covid_nios2_qsys_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0050_nios2_qsys_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0050_nios2_qsys_0_gen//covid_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: nios2_qsys_0: # 2022.06.22 17:16:39 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2022.06.22 17:16:39 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2022.06.22 17:16:40 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: nios2_qsys_0: # 2022.06.22 17:16:40 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2022.06.22 17:16:40 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2022.06.22 17:16:40 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2022.06.22 17:16:40 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2022.06.22 17:16:40 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2022.06.22 17:16:40 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2022.06.22 17:16:42 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2022.06.22 17:16:42 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2022.06.22 17:16:45 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'covid_nios2_qsys_0'
+Info: nios2_qsys_0: "covid" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'covid_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=covid_onchip_memory2_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0051_onchip_memory2_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0051_onchip_memory2_0_gen//covid_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'covid_onchip_memory2_0'
+Info: onchip_memory2_0: "covid" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: jtag_uart_0: Starting RTL generation for module 'covid_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=covid_jtag_uart_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0052_jtag_uart_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0052_jtag_uart_0_gen//covid_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'covid_jtag_uart_0'
+Info: jtag_uart_0: "covid" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: pio_0: Starting RTL generation for module 'covid_pio_0'
+Info: pio_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=covid_pio_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0053_pio_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0053_pio_0_gen//covid_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'covid_pio_0'
+Info: pio_0: "covid" instantiated altera_avalon_pio "pio_0"
+Info: pio_1: Starting RTL generation for module 'covid_pio_1'
+Info: pio_1:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=covid_pio_1 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0054_pio_1_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0054_pio_1_gen//covid_pio_1_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_1: Done RTL generation for module 'covid_pio_1'
+Info: pio_1: "covid" instantiated altera_avalon_pio "pio_1"
+Info: lcd_16207_0: Starting RTL generation for module 'covid_lcd_16207_0'
+Info: lcd_16207_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_lcd_16207 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_lcd_16207/generate_rtl.pl --name=covid_lcd_16207_0 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0055_lcd_16207_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0055_lcd_16207_0_gen//covid_lcd_16207_0_component_configuration.pl  --do_build_sim=0  ]
+Info: lcd_16207_0: Done RTL generation for module 'covid_lcd_16207_0'
+Info: lcd_16207_0: "covid" instantiated altera_avalon_lcd_16207 "lcd_16207_0"
+Info: pio_2: Starting RTL generation for module 'covid_pio_2'
+Info: pio_2:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=covid_pio_2 --dir=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0056_pio_2_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt9165_6702642975097775589.dir/0056_pio_2_gen//covid_pio_2_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_2: Done RTL generation for module 'covid_pio_2'
+Info: pio_2: "covid" instantiated altera_avalon_pio "pio_2"
+Info: nios2_qsys_0_instruction_master_translator: "covid" instantiated altera_merlin_master_translator "nios2_qsys_0_instruction_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "covid" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent: "covid" instantiated altera_merlin_master_agent "nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent: "covid" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "covid" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "covid" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "covid" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "covid" instantiated altera_merlin_router "id_router"
+Info: id_router_002: "covid" instantiated altera_merlin_router "id_router_002"
+Info: rst_controller: "covid" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "covid" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "covid" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "covid" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux_002: "covid" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: "covid" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file D:/RICHARD/proyectos_fpga/control_8horas/covid/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "covid" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file D:/RICHARD/proyectos_fpga/control_8horas/covid/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: irq_mapper: "covid" instantiated altera_irq_mapper "irq_mapper"
+Info: covid: Done covid" with 25 modules, 94 files, 1864285 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
